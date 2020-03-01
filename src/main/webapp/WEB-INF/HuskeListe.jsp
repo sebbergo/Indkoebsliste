@@ -14,5 +14,7 @@
 
 <h1>Velkommen til din webshoppen, du er klar til at tilføje til din indkøbskurv</h1>
 
+${sessionScope.besked}
+
 </body>
 </html>

@@ -23,7 +23,7 @@ public class OpretServlet extends HttpServlet {
         }
 
         ((Map<String, String>)(servletContext.getAttribute("brugerMap"))).put(navn, kodeord);
-        request.setAttribute("besked", "Du er oprette og klar til at logge in");
+        request.setAttribute("besked", "Du er oprettet og klar til at logge in");
         request.getRequestDispatcher("index.jsp").forward(request,response);
 
     }
